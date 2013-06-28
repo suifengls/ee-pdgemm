@@ -1,0 +1,12 @@
+1. main0.c
+   demon.c with lots of user functions.
+2. main1.c
+   demon.c without user funtions.
+3. main2.c
+   with different M N K.
+4. main3.c
+   demon main function. Save in 20121109
+5. ft_main_v1.c
+   modify for FT use, now does not add FT, 7*7.
+6. ft_main_v2.c
+   FT version, works well.

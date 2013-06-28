@@ -1,0 +1,12 @@
+1. mypdgemm_v1.c/h
+   same interface with pdgemm, with M = N = K in square process grid (local n = local m = local k).
+2. mypdgemm_v2.c/h
+   save before different M N K.
+3. v3
+   not finish change tempA/B.
+4. v4
+   works well with different M N K and 'N'.
+5. mypdgemm32_v1.c/h
+   specified for 32 in only first column and first row, extend from v4.
+6. mypdegmm_v5.c
+   FT version of pdegemm, works well for different M N K.

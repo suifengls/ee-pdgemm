@@ -1,0 +1,2 @@
+a: 
+	/home/lchen/mpich2/bin/mpif90 -g -Wall -O2 -o demon main.c /home/lchen/myheader/mypdgemm.c /home/lchen/myheader/map.c /home/lchen/myheader/pipeline.c  /home/lchen/scalapack_installer_1.0.1/build/scalapack-2.0.1/libscalapack.a /home/lchen/myroot/lib/libtmg.a /home/lchen/myroot/lib/libreflapack.a /home/lchen/myroot/lib/libcblas.a /home/lchen/myroot/lib/libf77blas.a /home/lchen/myroot/lib/libatlas.a -L/home/lchen/myroot/lib/ -lgfortran

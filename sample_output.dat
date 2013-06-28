@@ -1,0 +1,28 @@
+Sun Feb  3 21:34:57 CST 2013
+demon of square matrix matrix multiplication
+local m n k = 3200 3200 3200
+
+A_descrip = [ 1, 0, 25600, 25600, 3200, 3200, 0, 0, 3200]
+
+B_descrip = [ 1, 0, 25600, 25600, 3200, 3200, 0, 0, 3200]
+
+C_descrip = [ 1, 0, 25600, 25600, 3200, 3200, 0, 0, 3200]
+
+M = 25600, N = 25600, K = 25600
+Total execution time of my_pdgemm is 229.041.
+Total execution time of pdgemm is 242.042.
+My PDGEMM ID CCC = 13 :
+ 558.80409	 556.65708	 541.68758	 565.34326	 551.18639	
+ 547.21837	 547.77802	 562.00831	 562.93329	 566.94113	
+ 553.71173	 563.99336	 559.64631	 543.88252	 552.81596	
+ 549.50282	 544.89757	 551.30725	 536.68719	 559.51287	
+ 555.82530	 562.41690	 549.69214	 542.96070	 553.90247	
+PDGEMM ID CCC = 13 :
+ 558.80409	 556.65708	 541.68758	 565.34326	 551.18639	
+ 547.21837	 547.77802	 562.00831	 562.93329	 566.94113	
+ 553.71173	 563.99335	 559.64631	 543.88252	 552.81596	
+ 549.50282	 544.89757	 551.30725	 536.68719	 559.51287	
+ 555.82530	 562.41690	 549.69214	 542.96070	 553.90247	
+The total normal difference between my pdgemm A and ScaLAPACK pdgemm A is 0.000000e+00.
+The total normal difference between my pdgemm B and ScaLAPACK pdgemm B is 0.000000e+00.
+The total normal difference between my pdgemm C and ScaLAPACK pdgemm C is 2.166111e-17.

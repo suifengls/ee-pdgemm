@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#PBS -N pdgemm
+#PBS -l nodes=8:ppn=8
+
+#PBS -l walltime=00:30:00
+#PBS -o $PBS_JOBID.out
+
+#PBS -V
+cd $PBS_O_WORKDIR
+
+date
+echo demon of square matrix matrix multiplication
+mpiexec -n 64 -f hostfile /home/lchen/demon/demon
+#echo *----------------------------------------------------------------------------------*
+#echo FT-demon of square matrix matrix multiplication
+#mpiexec -n 64 -f hostfile /home/lchen/demon/ftdemon
