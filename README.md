@@ -1,7 +1,7 @@
 Energy Efficient - Parallel Matrix-Matrix Multiplication
 ========
-PS: You should have the right to change the cpu frequency by writing /sys/devices/system/cpu/cpu*/cpufreq/scaling_setspeed
-Files in this repository
+PS: You should have the permission to change the cpu frequency by writing /sys/devices/system/cpu/cpu*/cpufreq/scaling_setspeed
+Files for this project
 --------
 1. demon
 
